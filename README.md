@@ -23,12 +23,12 @@ Each project is organized in its own directory and contains the necessary data, 
 
 Customer churn prediction aims to identify customers who are likely to leave a service. This project uses machine learning to predict churn based on customer data of a particular bank and predicts the churn rate.
 
-### Structure
+### Contents
 
-- `churn_prediction/`
-  - `data/`: Contains the dataset used for training and testing.
-  - `notebooks/`: Jupyter notebooks for data exploration and model development.
-  - `results/`: Contains the results of model evaluations and visualizations.
+- `churn_prediction`
+  - `dataset`: Contains the dataset used for training and testing.
+  - `notebooks`: Jupyter notebooks for data exploration and model development.
+  - `results`: Contains the results of model evaluations and visualizations.
   
 
 ## Credit Card Fraud Detection
@@ -37,12 +37,12 @@ Customer churn prediction aims to identify customers who are likely to leave a s
 
 Credit card fraud detection aims to identify fraudulent transactions. This project uses machine learning models to classify transactions as fraudulent or legitimate.
 
-### Structure
+### Contents
 
-- `credit_card_fraud_detection/`
-  - `data/`: Contains the dataset used for training and testing.
-  - `notebooks/`: Jupyter notebooks for data exploration and model development.
-  - `results/`: Contains the results of model evaluations and visualizations.
+- `credit_card_fraud_detection`
+  - `dataset`: Contains the dataset used for training and testing.
+  - `notebooks`: Jupyter notebooks for data exploration and model development.
+  - `results`: Contains the results of model evaluations and visualizations.
 
 
 ## Movie Genre Classification
@@ -51,12 +51,12 @@ Credit card fraud detection aims to identify fraudulent transactions. This proje
 
 Movie genre classification aims to predict the genre of a movie based on its attributes. This project uses machine learning to classify movies into genres.
 
-### Structure
+### Contents
 
-- `movie_genre_classification/`
-  - `data/`: Contains the dataset used for training and testing.
-  - `notebooks/`: Jupyter notebooks for data exploration and model development.
-  - `results/`: Contains the results of model evaluations and visualizations.
+- `movie_genre_classification`
+  - `dataset`: Contains the dataset used for training and testing.
+  - `notebooks`: Jupyter notebooks for data exploration and model development.
+  - `results`: Contains the results of model evaluations and visualizations.
 
 ## Installation
 
@@ -64,7 +64,7 @@ To run these projects, you'll need to have Python and the necessary libraries in
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/encryptix-internship-projects.git
+    git clone https://github.com/yourusername/Encryptix.git
     ```
 2. Navigate to the project directory.
 3. Install the dependencies:
@@ -76,16 +76,6 @@ To run these projects, you'll need to have Python and the necessary libraries in
 
 After setting up the environment and installing the necessary dependencies, you can run the scripts as described in each project's section. Use Jupyter notebooks for an interactive exploration of the data and models.
 
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
 
 ## License
 
@@ -93,6 +83,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ---
 
-I hope you find these projects educational and enjoyable. Happy coding!
-
-- [Your Name]
+I hope you find these projects enjoyable!
